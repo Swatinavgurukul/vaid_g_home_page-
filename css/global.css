@@ -1,0 +1,306 @@
+/* font_family */
+@font-face {
+  font-family: semiBold-font;
+  src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: medium-font;
+  src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: bold-fond;
+  src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: regular-fond;
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+/* font_family */
+  /* hover */
+  img:hover {
+    transform: scale(1.1);
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+  /* hover */
+  /* navbar_sec */
+  .navbar_sec{
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 9;
+  }
+  .language{
+    font-family: semiBold-font;
+    color: #000000;
+    font-size: 18px;
+  }
+  .nav_user_name{
+    font-family: semiBold-font;
+    color: #000000;
+    font-size: 16px;
+  }
+  
+
+
+  /* contact info */
+.contactHead {
+    font-family: bold-fond;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #212121;
+  }
+  .contactsTextInfo p {
+    font-family: regular-fond;
+    font-size: 14px;
+    color: #212121;
+    /* margin-bottom: 0px; */
+  }
+  
+  .radioText {
+    font-size: 13px;
+    font-family: regular-fond;
+  
+    color: #212121;
+  }
+  .formData input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cccccc;
+    color: #b3b3b3;
+    font-size: 12px;
+    font-family: regular-fond;
+    padding-left: 7px;
+  }
+  .formData button {
+    /* padding: 5px; */
+    font-family: medium-font;
+    font-size: 11px;
+    background: #212121 0% 0% no-repeat padding-box;
+    color: #ffffff;
+  }
+  /* contact info */
+
+  /* Cities we Operated */
+  .cities_operated_sec{
+    margin-top: 80px;
+    background: #FFFFFF
+  }
+  .cities_operated_sec_heading{
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    /* font-family: ; */
+  }
+  .cities_operated_sec_info{
+      
+  }
+
+/* banner section */
+
+.banner_sec {
+  background-image: url("../images/2856828.png");
+  /* background-repeat: repeat-y; */
+  /* width: 100%; */
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  
+}
+.banner_sec img:hover{
+  transform:none;
+}
+
+.banner_title{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: semiBold-font;
+}
+
+
+.banner_input input{
+  /* background: #FFFFFF; */
+  border-radius: 6px;
+  color: #666666;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+.banner_search_btn{
+  border-radius: 6px;
+}
+.bengaluru_btn {
+  background: #1A54B0;
+  font-size: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: semibold-font;
+  color: #ffffff;
+}
+.bengaluru_btn_dropdown{
+  /* border: 2px solid #FFFFFF; */
+  /* color: #FFFFFF; */
+}
+
+/* banner section */
+
+/* What are you looking for? */
+
+.main_heading{
+  color: #000000;
+  font-size: 36px;
+  font-family: bold-fond;
+}
+.looking_for_card_1{
+  background: #A485BE;
+  border-radius: 6px;
+}
+.looking_for_card_2{
+  background: #89CCAB;
+  border-radius: 6px;
+}
+
+.looking_for_card_3{
+  background: #F79384;
+  border-radius: 6px;
+}
+.card_heading{
+  color: #FFFFFF;
+  font-size: 28px;
+  font-family: bold-fond;
+}
+.card_btn{
+  /* border: 1px solid #FFFFFF; */
+  /* border-radius: 6px; */
+  /* color: #FFFFFF; */
+  font-size: 14px;
+  font-family: bold-fond;
+}
+/* What are you looking for? */
+
+/* What kind of doctor do you need ? */
+
+.doctor_need_heading{
+  color: #666666;
+  font-size: 18px;
+  font-family: regular-fond;
+}
+.doctor_need_img img{
+  width: 100%;
+  object-fit: contain;
+}
+.doctor_need_description{
+  color: #1A54B0;
+  font-size: 18px;
+  font-family: bold-fond;
+}
+/* What kind of doctor do you need ? */
+
+/* How It Works */
+.how_it_works_bg{
+  background: #F8F8F8;
+}
+.how_it_works_img{
+  width: 100%;
+  text-align: center;
+  object-fit: contain;
+}
+.how_it_works_sub_heading{
+  color: #000000;
+  font-size: 20px;
+  font-family: bold-fond;
+}
+.how_it_works_description{
+  color: #514747;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+/* How It Works */
+
+
+
+
+
+/* Cities we Operated */
+
+.cities_operated_sec_bg{
+  background: #F8F8F8;
+}
+.cities_info{
+  color: #666666;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+/* Cities we Operated */
+/* Our Customers Say the Nicest Things */
+.nicest_things_heading{
+  color: #000000;
+  font-family: semiBold-font;
+  font-size: 20px;
+}
+.nicest_things_text{
+  color: #666666;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+.nicest_things_card{
+  background: #F6F5F5;
+  border-radius: 6px;
+  opacity: 1;
+}
+.nicest_things_hr{
+  border: 1px dashed #B5AFAF;
+}
+.nicest_things_bottom h5{
+  color: #000000;
+  font-size: 18px;
+  font-family: bold-fond;
+}
+.nicest_things_bottom p{
+  color: #000000;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+.nicest_heart{
+  padding: 1px;
+  background-color: white;
+  /* background-color: #F6F5F5; */
+  opacity: 1;
+  border-radius: 15px;
+  margin-right: 20px;
+  /* position: relative; */
+  /* margin-left: -10px;
+  margin-top: -45px; */
+}
+.nicest_heart img{
+  /* position: absolute; */
+  /* margin-bottom: 50px;
+  margin-right: 25px; */
+}
+/* Our Customers Say the Nicest Things */
+/* footer */
+
+.footer_bg{
+  background: #212121 ;
+  opacity: 1;
+}
+.footer_text{
+  color: #FFFFFF;
+  font-family: semiBold-font;
+  font-size: 16px;
+}
+.footer_hr{
+  border: 1px solid #FFFFFF;
+  opacity: 0.21;
+  /* color: #FFFFFF; */
+}
+.copyright_text{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: regular-fond;
+}
+/* footer */
