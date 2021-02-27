@@ -37,12 +37,12 @@
   .language{
     font-family: semiBold-font;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .nav_user_name{
     font-family: semiBold-font;
     color: #000000;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .nav_input input{
     /* background: #FFFFFF; */
@@ -50,7 +50,7 @@
     /* color: #666666; */
     color: #514747;
     background: #F0F0F0;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: regular-fond;
   }
 
@@ -62,7 +62,7 @@
   .cities_operated_sec_heading{
     color: #000000;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     /* font-family: ; */
   }
 
@@ -91,7 +91,7 @@
 
 .banner_title{
   color: #FFFFFF;
-  font-size: 48px;
+  font-size: 3rem;
   font-family: semiBold-font;
 }
 
@@ -100,7 +100,7 @@
   /* background: #FFFFFF; */
   border-radius: 6px;
   color: #666666;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 .banner_search_btn{
@@ -108,7 +108,7 @@
 }
 .bengaluru_btn {
   background: #1A54B0;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 6px;
   text-align: center;
   font-family: semibold-font;
@@ -125,7 +125,7 @@
 
 .main_heading{
   color: #000000;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: bold-fond;
 }
 .looking_for_card_1{
@@ -143,14 +143,14 @@
 }
 .card_heading{
   color: #FFFFFF;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: bold-fond;
 }
 .card_btn{
   /* border: 1px solid #FFFFFF; */
   /* border-radius: 6px; */
   /* color: #FFFFFF; */
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: bold-fond;
 }
 /* What are you looking for? */
@@ -159,7 +159,7 @@
 
 .doctor_need_heading{
   color: #666666;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: regular-fond;
 }
 .doctor_need_img img{
@@ -168,7 +168,7 @@
 }
 .doctor_need_description{
   color: #1A54B0;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: bold-fond;
 }
 /* What kind of doctor do you need ? */
@@ -182,14 +182,18 @@
   text-align: center;
   object-fit: contain;
 }
+.how_it_works_border_img{
+  /* width: 330px; */
+}
+
 .how_it_works_sub_heading{
   color: #000000;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: bold-fond;
 }
 .how_it_works_description{
   color: #514747;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 /* How It Works */
@@ -205,7 +209,7 @@
 }
 .cities_info{
   color: #666666;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 /* Cities we Operated */
@@ -213,11 +217,11 @@
 .nicest_things_heading{
   color: #000000;
   font-family: semiBold-font;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .nicest_things_text{
   color: #666666;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 .nicest_things_card{
@@ -230,12 +234,12 @@
 }
 .nicest_things_bottom h5{
   color: #000000;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: bold-fond;
 }
 .nicest_things_bottom p{
   color: #000000;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 .nicest_heart{
@@ -264,7 +268,7 @@
 .footer_text{
   color: #FFFFFF;
   font-family: semiBold-font;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .footer_hr{
   border: 1px solid #FFFFFF;
@@ -273,7 +277,7 @@
 }
 .copyright_text{
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: regular-fond;
 }
 /* footer */
@@ -294,4 +298,49 @@
     /* margin-bottom: 0 !important; */
     text-align: center;
   }
+}
+
+
+
+/*  */
+
+
+/* .carousel-indicators_ul {
+  background-color: #1A54B0;
+  
+}
+.carousel-indicators_ul li{
+  color: red;
+} */
+
+.item img {
+  width: 100%;
+  height: auto
+}
+
+.carousel {
+  position: relative;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: -30px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  
+  padding: 15px;
+  margin: 0;
+  border-radius: 140px;
+  border: 0;
+  background: #CECECE;
+}
+
+ol.carousel-indicators li.active {
+  background: #1A54B0;
 }
