@@ -44,59 +44,36 @@
     color: #000000;
     font-size: 1rem;
   }
-  .nav_input input{
+  .nav_input input {
     /* background: #FFFFFF; */
-    border-radius: 4px;
     /* color: #666666; */
+    border-radius: 4px;
     color: #514747;
     background: #F0F0F0;
     font-size: 0.875rem;
     font-family: regular-fond;
   }
 
-  /* Cities we Operated */
-  .cities_operated_sec{
-    margin-top: 80px;
-    background: #FFFFFF
-  }
-  .cities_operated_sec_heading{
-    color: #000000;
-    text-align: center;
-    font-size: 2.25rem;
-    /* font-family: ; */
-  }
-
-/* banner section */
-
-.banner_sec {
-  /* filter: brightness(90%);  */
-  background-image: url("../images/2856828.png");
-  /* background-repeat: repeat-y; */
-  /* width: 100%; */
+/* banner-section */
+.banner_sec{
   height: 560px;
-  position: relative;
-  overflow: hidden;
-  object-fit: cover;
-  /* background: #000000;
-  opacity: 0.24; */
-  
+  background: linear-gradient( rgb(0 0 0 / 24%), rgb(0 0 0 / 24%) ), url('../images/2856828.png');  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-/* .banner_sec_bg{
-  background: #000000 0% 0% no-repeat padding-box;
-  opacity: 0.24;
-} */
-.banner_sec img:hover{
+.banner_sec img:hover {
   transform:none;
 }
 
 .banner_title{
   color: #FFFFFF;
-  font-size: 3rem;
   font-family: semiBold-font;
 }
 
-
-.banner_input input{
+.banner_input input {
   /* background: #FFFFFF; */
   border-radius: 6px;
   color: #666666;
@@ -125,7 +102,6 @@
 
 .main_heading{
   color: #000000;
-  font-size: 2.25rem;
   font-family: bold-fond;
 }
 .looking_for_card_1{
@@ -143,7 +119,6 @@
 }
 .card_heading{
   color: #FFFFFF;
-  font-size: 1.75rem;
   font-family: bold-fond;
 }
 .card_btn{
@@ -177,31 +152,36 @@
 .how_it_works_bg{
   background: #F8F8F8;
 }
-.how_it_works_img{
+.how_it_works_img {
   width: 100%;
   text-align: center;
   object-fit: contain;
 }
-.how_it_works_border_img{
-  /* width: 330px; */
-}
-
-.how_it_works_sub_heading{
+.how_it_works_sub_heading {
   color: #000000;
   font-size: 1.25rem;
   font-family: bold-fond;
 }
-.how_it_works_description{
+.how_it_works_description {
   color: #514747;
   font-size: 1rem;
   font-family: regular-fond;
 }
 /* How It Works */
+/* how_it_works_border */
 
+.how_it_works_border {
+  top: 235px;
+  position: absolute;
+}
+.how_it_works_border_left_img {
+  margin-left: 250px;
+}
+.how_it_works_border_right_img {
+  margin-left: 100px;
+}
 
-
-
-
+/* how_it_works_border */
 /* Cities we Operated */
 
 .cities_operated_sec_bg{
@@ -250,16 +230,26 @@
   border-radius: 15px;
   margin-right: 20px;
   /* position: relative; */
-  /* margin-left: -10px;
-  margin-top: -45px; */
+  margin-left: -10px;
+  margin-top: -45px;
 }
 .nicest_heart img{
-  /* position: absolute; */
-  /* margin-bottom: 50px;
-  margin-right: 25px; */
+  position: absolute;
 }
 /* Our Customers Say the Nicest Things */
-/* footer */
+  /* Cities we Operated */
+  .cities_operated_sec{
+    margin-top: 80px;
+    background: #FFFFFF
+  }
+  .cities_operated_sec_heading{
+    color: #000000;
+    text-align: center;
+    font-size: 2.25rem;
+    /* font-family: ; */
+  }
+  /* Cities we Operated */
+  /* footer */
 
 .footer_bg{
   background: #212121 ;
@@ -282,47 +272,84 @@
 }
 /* footer */
 
-
-.how_it_works_hr{
+.how_it_works_hr {
   border: 1px dashed #B5AFAF;
 }
 
-
-
-@media (min-width: 320px) {
-  
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 320px) {  
+  .banner_title {font-size: 2rem;}
+  .main_heading{font-size: 1.70rem;}
+  .card_heading{font-size: 1.20rem;}
+  .banner_input input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+  }
+  .search_img{
+    width: 18px;
+  }
+  .center_item{
+    text-align: center;
+  }
+  .social_left_img{
+    text-align: center;
+  }
+  .social_right_img{
+    text-align: center;
+  }
+  .loved_customers{
+    margin-top: 0;
+  }
 }
 
-
-
-.item img {
-  width: 100%;
-  height: auto
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .banner_title {font-size: 3rem;}
+  .main_heading {font-size: 2.25rem;}
+  .card_heading{font-size: 1.75rem;}
+  .search_img{
+    width: 25px;
+  }
+  .banner_input input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .social_left_img{
+    text-align: left;
+  }
+  .social_right_img{
+    text-align: right;
+  }
+  .loved_customers{
+    margin-top: 30px;
+  }
 }
 
+/* carousel */
 .carousel {
   position: relative;
 }
-
-ol.carousel-indicators {
+ul.carousel-indicators {
   position: absolute;
-  bottom: -30px;
+  bottom: -25px;
   margin: 0;
   left: 0;
   right: 0;
   width: auto;
 }
-
-ol.carousel-indicators li,
-ol.carousel-indicators li.active {
-  
-  padding: 15px;
+ul.carousel-indicators li,
+ul.carousel-indicators li.active {
+  width: 2px;
+  padding: 7px;
   margin: 0;
-  border-radius: 140px;
+  border-radius: 20px;
   border: 0;
   background: #CECECE;
+  margin-right: 5px;
 }
-
-ol.carousel-indicators li.active {
+ul.carousel-indicators li.active {
   background: #1A54B0;
 }
+
+/* carousel */
